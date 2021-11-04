@@ -380,6 +380,7 @@ header.masthead {
     padding-bottom: 6rem;
     margin-right: 10px ;
     margin-left: 10px ; 
+    
     }
     
  
@@ -402,12 +403,12 @@ header.masthead {
     display: -moz- flex;
     display: -ms- flex ;
     display: -o- flex ;
-    display: flex ; 
+    display: flex ;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
-    margin-left: 30px ;
-    margin-right : 130px;
+    margin-left: 10px ;
+    margin-right : 10px;
     
     
    
@@ -419,6 +420,8 @@ header.masthead {
   }
   .nav-area{
     list-style: none;
+    margin-left: -85px;
+    
     
   }
   .nav-area li{
