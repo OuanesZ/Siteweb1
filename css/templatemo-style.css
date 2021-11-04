@@ -77,7 +77,7 @@ h3 {
     display: inline-block;
 }
 
-.tm-welcome-video {
+.-video {
     max-width: 100%;
     min-width: 100%;
     min-height: 100%;
@@ -370,19 +370,18 @@ p {
 }
 
 header.masthead {
+    
     position: relative;
     background-color: #343a40;
     /*background: url("../assets/img/bg-masthead.jpg") no-repeat center center; */
     background: url("../img/header_2017_09_07.jpg") no-repeat center center; 
-    background-size: cover;
+    background-size: contain;
     padding-top: 8rem;
     padding-bottom: 6rem;
     margin-right: 10px ;
     margin-left: 10px ;
-    
-    
-    
-  }
+    }
+ 
   header.masthead:before {
     content: "";
     position: absolute;
