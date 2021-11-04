@@ -377,6 +377,11 @@ header.masthead {
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 6rem;
+    margin-right: 10px ;
+    margin-left: 10px ;
+    
+    
+    
   }
   header.masthead:before {
     content: "";
@@ -392,6 +397,7 @@ header.masthead {
     font-size: 2rem;
   }
   header.head2 {
+      
     display: -webkit- flex;
     display: -moz- flex;
     display: -ms- flex ;
@@ -399,7 +405,12 @@ header.masthead {
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 200px;
+    padding: 30px 130px;
+    margin-left: -90px ;
+    
+   
+    
+    
     
     
   
@@ -416,7 +427,7 @@ header.masthead {
   }
   .nav-area li a {
     transition: 1s;
-    color: #000 ;
+    color: #fff ;
   
   }
   .nav-area li a:hover {
